@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <br>
-    <p style="font-family:Roboto; font-size:18pt">SIT Subject Reservation Web</p>
+    <p style="font-family:Roboto; font-size:18pt">SIT Subject Reservation Web - on vercel</p>
     <br>
     <v-row justify="center" align="top" no-gutters style="height: 150px;">
       <v-col v-for="n in 3" :key="n" cols="3">
