@@ -14,6 +14,7 @@
         <h1 class="display-2 font-weight-bold mb-3">
           Welcome to Vuetify
         </h1>
+        <p>{{ msg }}</p>
 
         <p class="subheading font-weight-regular">
           For help and collaboration with other Vuetify developers,
@@ -94,7 +95,9 @@
 <script>
   export default {
     name: 'HelloWorld',
-
+    props: {
+      msg: String
+    },
     data: () => ({
       ecosystem: [
         {
